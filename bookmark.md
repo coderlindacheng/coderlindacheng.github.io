@@ -11,11 +11,11 @@ menu: Bookmark
 - [rythmengine](http://rythmengine.org/) - 一个专为Java程序员设计的模版引擎
 
 ## Golang
-- [](https://golang.org/)
+- [Golang](https://golang.org/)
 
 ## Gradle
-  ### Plugin
-      - [Shadow](http://imperceptiblethoughts.com/shadow/) - Shadow is a Gradle plugin for combining dependency classes and resources with a project’s into a single output Jar.
+### Plugin
+- [Shadow](http://imperceptiblethoughts.com/shadow/) - Shadow is a Gradle plugin for combining dependency classes and resources with a project’s into a single output Jar.
 
 ## Maven
   - [Sonatype JIRA](https://issues.sonatype.org) - Maven Central Repository administration system.
