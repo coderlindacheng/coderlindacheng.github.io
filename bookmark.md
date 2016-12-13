@@ -14,7 +14,8 @@ menu: Bookmark
 - [Golang](https://golang.org/)
 
 ## Gradle
-### Plugin
+
+### Plugins
 - [Shadow](http://imperceptiblethoughts.com/shadow/) - Shadow is a Gradle plugin for combining dependency classes and resources with a project’s into a single output Jar.
 
 ## Maven
