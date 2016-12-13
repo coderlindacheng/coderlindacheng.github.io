@@ -18,15 +18,15 @@ menu: Bookmark
 - [Shadow](http://imperceptiblethoughts.com/shadow/) - Shadow is a Gradle plugin for combining dependency classes and resources with a project’s into a single output Jar.
 
 ## Maven
-  - [Sonatype JIRA](https://issues.sonatype.org) - Maven Central Repository administration system.
-  - [Maven Central Repository](http://search.maven.org/) - The Search Engine for The Central Repository.
+- [Sonatype JIRA](https://issues.sonatype.org) - Maven Central Repository administration system.
+- [Maven Central Repository](http://search.maven.org/) - The Search Engine for The Central Repository.
 
 ## Docker
-  - [Ali Docker Images Repository](https://cr.console.aliyun.com) - 阿里的Docker镜像仓库,包括加速器.
-  - [Rancher](http://rancher.com/) - Rancher is an open source software platform that enables organizations to run containers in production.
+- [Ali Docker Images Repository](https://cr.console.aliyun.com) - 阿里的Docker镜像仓库,包括加速器.
+- [Rancher](http://rancher.com/) - Rancher is an open source software platform that enables organizations to run containers in production.
 
 ## Bootstrap
-  -[Bootstrap](http://getbootstrap.com/) - Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
+- [Bootstrap](http://getbootstrap.com/) - Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 
 ## Tool
 - [Bower](https://bower.io/) - A package manager for the web.
