@@ -23,11 +23,11 @@ no-post-nav: true
 1. Configuration
   * 首先是配置阶段,在这个阶段下所有脚本里面的代码都会被[Gradle](https://gradle.org/)加载,而且执行对应的配置,赋值,初始化等工作
 2. Execution
-  * 然后这里是重头戏了,[Gradle](https://gradle.org/)一切的执行都是靠**Task**,在完成了所有的初始化工作之后,[Gradle](https://gradle.org/)就会执行用户命令行输入的目标**Task**去完成脚本上的一切执行动作(注意**Task**是分执行部分和配置部分的,这里只是简介一下[Gradle](https://gradle.org/)我就不赘述了,有兴趣的请自行查阅[Gradle用户文档](https://docs.gradle.org/current/userguide),不谢:sunglasses:),然后你想做的一切,就会为你完成了.
+  * 然后这里是重头戏了,[Gradle](https://gradle.org/)一切的执行都是靠**Task**,在完成了所有的初始化工作之后,[Gradle](https://gradle.org/)就会执行用户命令行输入的目标**Task**去完成脚本上的一切执行动作(注意**Task**是分执行部分和配置部分的,这里只是简介一下[Gradle](https://gradle.org/)我就不赘述了,有兴趣的请自行查阅[Gradle用户文档](https://docs.gradle.org/current/userguide),不谢 :sunglasses:),然后你想做的一切,就会为你完成了.
 3. 在构建的时候,[Gradle](https://gradle.org/)会生成很多对象,然后你可以在你的脚本里调用这些对象的属性.
 
 ## Groovy Quickstart
-反正用[Gradle](https://gradle.org/)你就跑不掉要基本理解下[Groovy](http://groovy-lang.org/),基本的语法你还是得知道,[Gradle](https://gradle.org/)的官方文档有这个一个章节,[Chapter 53. Groovy Quickstart](https://docs.gradle.org/current/userguide/tutorial_groovy_projects.html),反正也可以看一下.值得注意的是,[Gradle](https://gradle.org/)大量地使用了[Groovy](http://groovy-lang.org/)闭包的[Delegation](http://groovy-lang.org/closures.html#closure-owner)机制和[Bean](http://groovy-lang.org/objectorientation.html)的概念([也可以看看这里的讲解](http://www.cnblogs.com/davenkin/p/gradle-learning-3.html)),先理解这些,看[Gradle](https://gradle.org/)的脚本就不会觉得懵逼:flushed:
+反正用[Gradle](https://gradle.org/)你就跑不掉要基本理解下[Groovy](http://groovy-lang.org/),基本的语法你还是得知道,[Gradle](https://gradle.org/)的官方文档有这个一个章节,[Chapter 53. Groovy Quickstart](https://docs.gradle.org/current/userguide/tutorial_groovy_projects.html),反正也可以看一下.值得注意的是,[Gradle](https://gradle.org/)大量地使用了[Groovy](http://groovy-lang.org/)闭包的[Delegation](http://groovy-lang.org/closures.html#closure-owner)机制和[Bean](http://groovy-lang.org/objectorientation.html)的概念([也可以看看这里的讲解](http://www.cnblogs.com/davenkin/p/gradle-learning-3.html)),先理解这些,看[Gradle](https://gradle.org/)的脚本就不会觉得懵逼 :flushed:
 
 ## About Task
 **Task**是[Gradle](https://gradle.org/)灵魂一样的存在,所有真正的执行动作都是有**Task**去完成,例如:
@@ -121,4 +121,4 @@ shadowJar.doLast {
 
 ## Finally
   上个对比图[Gradle](https://gradle.org/) vs [Maven](http://maven.apache.org/)
-  ![gradle_vs_maven](/assets/images/gradle_vs_maven.png)
+  ![gradle_vs_maven](/assets/images/gradle_vs_maven.png)实现同样的项目构建功能,[Gradle](https://gradle.org/) 194行,[Maven](http://maven.apache.org/) 506行,[Gradle](https://gradle.org/)完胜 :v:
