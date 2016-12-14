@@ -123,4 +123,4 @@ shadowJar.doLast {
 
 ## Finally
   上个对比图[Gradle](https://gradle.org/) vs [Maven](http://maven.apache.org/)
-  ![gradle_vs_maven](/assets/images/gradle_vs_maven.png)实现同样的项目构建功能,[Gradle](https://gradle.org/) 194行,[Maven](http://maven.apache.org/) 506行,[Gradle](https://gradle.org/)完胜
+  ![gradle_vs_maven](/assets/images/gradle_vs_maven.png)实现同样的项目构建功能,[Gradle](https://gradle.org/) 194行,[Maven](http://maven.apache.org/) 506行,[Gradle](https://gradle.org/)完胜.虽然Gradle的学习曲线要比Maven平滑很多,但是那个官方文档还是看的人一个蛋疼,很多坑在里面.
