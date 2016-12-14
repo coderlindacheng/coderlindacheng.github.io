@@ -6,7 +6,7 @@ tags: [Gradle]
 no-post-nav: true
 ---
 
-简单的介绍一些[Gradle](https://gradle.org/)
+简单的介绍一下[Gradle](https://gradle.org/)
 
 ## Introduction
 * [Gradle](https://gradle.org/)是一个通用的项目构建工具(官方说像Ant一样,反正我没用过...所以我不懂),它不单单可以用来构建Java项目,还可以用来构建各种语言相关甚至非语言相关的项目,一切都决定于你想用它来干什么
