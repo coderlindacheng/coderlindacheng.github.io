@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Redis笔记
+title: Redis的RDB和AOF
 category: redis
 tags: [mark]
 no-post-nav: true
 ---
 
-记录一下redis的关键信息
+我本来想写点什么.....结果网上搜到一篇博客实在写得太好了,好吧,果然程序员都是很懒....然后我就复制粘贴了
 
-# 我本来想写点什么.....结果网上搜到一篇博客实在写得太好了,好吧,果然程序员都是很懒....然后我就复制粘贴了
+-----
 
 ## Redis 持久化:
 
