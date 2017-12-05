@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Redis的RDB和AOF
 category: redis
 tags: [mark]
