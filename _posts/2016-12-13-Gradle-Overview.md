@@ -1,7 +1,7 @@
 ---
 title: Gradle Overview
 category: Gradle
-tags: [Gradle]
+tags: [Gradle,talk]
 no-post-nav: true
 ---
 
