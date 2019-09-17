@@ -30,5 +30,21 @@ css: ['sidebar-post-nav.css']
         {% endif %}
 
     </div>
+    <div class="row">
+        <div id="container"></div>
+        <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+        <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+        <script>
+        var gitment = new Gitment({
+          owner: 'coderlindacheng',
+          repo: 'https://github.com/coderlindacheng/blog-issue-repo',
+          oauth: {
+            client_id: '42227a8bebbe2bf03059',
+            client_secret: '415dd6e95fa73a2cf6d667c869e2c9634f79d8ca',
+          },
+        })
+        gitment.render('container')
+    </div>
+</script>
 
 </article>
